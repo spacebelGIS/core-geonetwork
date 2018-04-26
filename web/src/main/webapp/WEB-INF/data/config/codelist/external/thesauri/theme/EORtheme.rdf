@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="http://eoregions.be/thesaurus/theme/eor">
+    <dc:title>Thèmes EO Regions!</dc:title>
+    <dc:description>Thèmes EO Regions!</dc:description>
+    <dc:creator>
+      <foaf:Organization>
+        <foaf:name>EOR</foaf:name>
+      </foaf:Organization>
+    </dc:creator>
+    <dcterms:issued>2018-04-25</dcterms:issued>
+    <dcterms:modified>2018-04-25</dcterms:modified>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://eoregions.be/thesaurus/theme/eor/forest">
+    <skos:prefLabel xml:lang="fr">Forêt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Forest</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://eoregions.be/thesaurus/theme/eor/agriculture">
+    <skos:prefLabel xml:lang="fr">Agriculture</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Agriculture</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://eoregions.be/thesaurus/theme/eor/groundmouvement">
+    <skos:prefLabel xml:lang="fr">Mouvements du sol</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ground movement</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
