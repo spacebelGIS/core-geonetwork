@@ -550,9 +550,9 @@ INSERT INTO Operations (id, name) VALUES  (6,'featured');
 -- === Table: Settings
 -- ======================================================================
 
-INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('system/site/name', 'My GeoNetwork catalogue', 0, 110, 'n');
+INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('system/site/name', 'EORegion catalogue', 0, 110, 'n');
 INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('system/site/siteId', '', 0, 120, 'n');
-INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('system/site/organization', 'My organization', 0, 130, 'n');
+INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('system/site/organization', 'EORegion!', 0, 130, 'n');
 INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('system/platform/version', '3.4.2', 0, 150, 'n');
 INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('system/platform/subVersion', 'SNAPSHOT', 0, 160, 'n');
 INSERT INTO Settings (name, value, datatype, position, internal) VALUES ('system/site/svnUuid', '', 0, 170, 'y');
@@ -688,7 +688,8 @@ INSERT INTO Selections (id, name, isWatchable) VALUES (1, 'WatchList', 'y');
 
 INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (-1, 'Average', 'y');
 INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (0, 'Completeness', 'n');
-INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (1, 'Discoverability', 'n');
-INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (2, 'Readability', 'n');
 INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (3, 'DataQuality', 'n');
+INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (5, 'Delivery', 'n');
+INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (6, 'Price', 'n');
 INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (4, 'ServiceQuality', 'n');
+INSERT INTO GUF_RatingCriteria (id, name, isinternal) VALUES (7, 'HelpdeskSupport', 'n');

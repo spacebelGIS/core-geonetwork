@@ -528,7 +528,10 @@ INSERT INTO SelectionsDes (iddes, langid, label) VALUES (1,'fre','Fiches observ�
 
 INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (-1,'fre', 'Moyenne');
 INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (0,'fre', 'Complétude#Est-ce que les informations sur cette page sont suffisamment précises pour savoir ce que vous pouvez attendre de cette ressource ?');
-INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (1,'fre', 'Découvrabilité#Était-il facile de trouver cette page ?');
-INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (2,'fre', 'Lisibilité#Était-il facile de comprendre le contenu de cette page ?');
 INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (3,'fre', 'Qualité des données#Est-ce que cette ressource contient les informations attendues ? Les données sont-elles assez précises ? assez récentes ?');
 INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (4,'fre', 'Cette données est elle accessible dans un format ou via un service simple à utiliser ?');
+
+INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (5,'fre', 'Délai de livraison');
+INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (6,'fre', 'Prix');
+INSERT INTO GUF_RatingCriteriaDes (iddes, langid, label) VALUES (7,'fre', 'Service clientèle');
+
